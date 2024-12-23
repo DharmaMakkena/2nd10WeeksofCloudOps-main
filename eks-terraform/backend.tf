@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "dharmaawsdev"
+    bucket = "dharma-devops-project"
     key    = "eks/terraform.tfstate"
     region = "us-east-1"
   }
